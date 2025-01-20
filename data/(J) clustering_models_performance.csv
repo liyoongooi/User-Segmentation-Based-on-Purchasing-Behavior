@@ -1,0 +1,13 @@
+Model,Encoding,Scaling,Clustering Algorithm,Silhouette Score,Calinski-Harabasz Score
+K1,One-hot Encoding,None,k-Means,0.5283543613590115,39436.98269933049
+K2,One-hot Encoding + Autoencoding,None,k-Means,0.47746975859275403,29581.198939271962
+K3,One-hot Encoding,Min-max Scaling,k-Means,0.2035329675529676,1646.9331167772996
+K4,One-hot Encoding + Autoencoding,Min-max Scaling,k-Means,0.15464415418450075,1108.553407296327
+K5,One-hot Encoding,Standard Scaling,k-Means,0.13194793085291287,1602.7609169448294
+K6,One-hot Encoding + Autoencoding,Standard Scaling,k-Means,0.12353919808778704,1525.0595131319162
+D1,One-hot Encoding,None,DBSCAN,,
+D2,One-hot Encoding + Autoencoding,None,DBSCAN,,
+D3,One-hot Encoding,Min-max Scaling,DBSCAN,,
+D4,One-hot Encoding + Autoencoding,Min-max Scaling,DBSCAN,,
+D5,One-hot Encoding,Standard Scaling,DBSCAN,,
+D6,One-hot Encoding + Autoencoding,Standard Scaling,DBSCAN,,
